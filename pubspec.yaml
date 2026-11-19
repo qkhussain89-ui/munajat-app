@@ -1,0 +1,48 @@
+name: hearth_prayer
+description: "Munājāt is your personal AI-powered Duʿā companion, offering a serene space to compose, organize, and reflect on your supplications with beautiful design and seamless navigation."
+publish_to: "none"
+version: 1.1.0+11
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  url_launcher: ^6.0.0
+  hijri: ^3.0.0
+  purchases_flutter: ^9.0.0
+  font_awesome_flutter: ^10.0.0
+  http_parser: ^4.0.0
+  path_provider: ^2.0.0
+  record: '>=5.1.2'
+  geocoding: ^4.0.0
+  share_plus: ^12.0.0
+  uuid: ^4.0.0
+  flutter_svg: ^2.0.0
+  intl: any
+  provider: ^6.0.0
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.2
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.0.0
+  supabase_flutter: '>=1.10.0'
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/munajat-app-icon-1024x1024.png"
+  remove_alpha_ios: true
+  background_color_ios: "#0A0A0A"
